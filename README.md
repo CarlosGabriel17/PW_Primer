@@ -1,2 +1,2 @@
-# PW_Primer
+#06-PW2024
 primer ejersicio 
