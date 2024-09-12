@@ -3,41 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web Interactiva</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Black Goose Bistro</title>
+    <style>
+        body {
+            background-color: #32e4cc;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid red;
+        }
+        h1, h2 {
+            text-align: center;
+            color: black;
+            font-weight: bold;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 20px;
+        }
+        p {
+            font-size: 18px;
+            text-align: justify;
+        }
+        .catering span {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a mi página web</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#about">Acerca de</a></li>
-                <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <section id="home">
-        <h2>Inicio</h2>
-        <p>Esta es la sección de inicio.</p>
-        <button id="changeColorBtn">Cambiar Color</button>
-    </section>
+    <div class="container"> 
+        <center><img src="Img/P1.jpg" alt="Logo de Black Goose Bistro"></center>
+        <h1>Black Goose Bistro</h1>
 
-    <section id="about">
-        <h2>Acerca de</h2>
-        <p>Esta es una página web creada con HTML, CSS y JavaScript.</p>
-    </section>
+        <h2>El restaurante</h2>
+        <p>El Black Goose Bistro ofrece comida casual para el almuerzo y la cena en un ambiente moderno. El menú cambia regularmente para resaltar los ingredientes más frescos.</p>
 
-    <section id="contact">
-        <h2>Contacto</h2>
-        <p>Puedes contactarme a través de GitHub.</p>
-    </section>
+        <h2>Catering</h2>
+        <p class="catering">Diviértete... <span>Nosotros nos encargamos de la cocina.</span> Black Goose Catering puede encargarse de eventos desde aperitivos para clubes de bridge hasta elegantes recaudaciones de fondos corporativos.</p>
 
-    <footer>
-        <p>© 2024 Mi Página Web</p>
-    </footer>
+        <h2>Ubicación y Horario</h2>
+        <p>Seekonk, Massachusetts: De lunes a jueves de 11 am a 9 pm, viernes y sábado de 11 am a medianoche.</p>
+        <button disabled type="button" onclick="alert('Hello world!')">
+            Hazme clic
+          </button>
 
-    <script src="script.js"></script>
+    </div>
+
 </body>
 </html>
